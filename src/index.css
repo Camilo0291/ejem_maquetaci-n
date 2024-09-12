@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d6d4d4;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 69.2%;
+  height: 25vh;
+  border: 2px solid#242222;
+  margin-left: 1px;
+  margin-top: 1px;
+  background-color: rgb(232, 22, 176);
+}
+.link-container {
+  background-color: white;
+  width: 150px;
+  height: 49px;
+  position: relative;
+}
+.link {
+  position: absolute;
+  top: 35px;
+  left: 48px;
+  margin-top: -20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  width: 29.7%;
+  height: 25vh;
+  margin-top: 1px;
+  margin-left: 8px;
+  background-color: rgb(232, 22, 176);
+  border: 2px solid #000;
+  position: absolute;
+  top: 0%;
+  left: 69%;
+}
+.main {
+  width: 52%;
+  height: 47vh;
+  padding: 50px;
+  border: 2px solid #242222;
+  margin-left: 1px;
+  margin-top: 3px;
+  background-color: #c2890e;
+}
+.div-main {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(232, 22, 176);
+  border: 2px solid #000;
+}
+.section-container {
+  width: 46.6%;
+  height: 23vh;
+  padding: 50px;
+  margin-left: 1px;
+  margin-top: 3px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #242222;
+  background-color: rgb(232, 22, 176);
+  position: absolute;
+  top: 25%;
+  left: 52.6%;
+}
+.Section {
+  width: 100.4%;
+  height: 23vh;
+  display: flex;
+  background-color: rgb(232, 22, 176);
+  border: 2px solid #242222;
+  margin-top: 79px;
+  top: 49%;
+  position: absolute;
+}
+.article-container {
+  width: 35%;
+  height: 26vh;
+  padding: 20px;
+  border: 2px solid #242222;
+  margin-left: 1px;
+  margin-top: 6px;
+  background-color: #90c749;
+}
+.article {
+  width: 35%;
+  height: 26vh;
+  padding: 20px;
+  border: 2px solid #242222;
+  margin-left: 2px;
+  margin-top: -11px;
+  background-color: #90c749;
+  top: 75.4%;
+  left: 35.3%;
+  position: absolute;
+}
+.footer {
+  width: 28.5%;
+  height: 26vh;
+  padding: 11px;
+  border: 2px solid #242222;
+  margin-left: 1px;
+  background-color: #90c749;
+  top: 75.4%;
+  left: 70.5%;
+  position: absolute;
+  margin-top: -11px;
+  margin-left: 3px;
+}
